@@ -1,0 +1,23 @@
+{
+    "title": "图片",
+    "namespace": "comlib-element.image",
+    "version": "1.0.0",
+    "author": "tangxiaoxin",
+    "author_name": "tangxiaoxin",
+    "data": "./data.json",
+    "runtime": "./runtime.vue",
+    "editors": "./editor.ts",
+    "icon": "./icon.png",
+    "inputs": [
+      {
+        "id": "url",
+        "title": "资源地址",
+        "schema": {
+          "type": "string"
+        }
+      }
+    ],
+    "outputs": [],
+    "slots": []
+  }
+  

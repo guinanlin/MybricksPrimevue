@@ -1,0 +1,14 @@
+{
+  "name": "comlib-element",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "dependencies": {
+    "element-ui": "^2.15.14",
+    "vue": "2.7.14"
+  },
+  "devDependencies": {
+    "typescript": "^5.2.2",
+    "vue-loader": "^17.3.0"
+  }
+}

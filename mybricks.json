@@ -1,0 +1,10 @@
+{
+    "domain": "https://my.mybricks.world",
+    "email": "1302947749@qq.com",
+    "pxToVw": {},
+    "componentType": "PC",
+    "comAry": [
+        "./src/Button/com.json",
+        "./src/Image/com.json"
+    ]
+}
