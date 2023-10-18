@@ -1,20 +1,23 @@
 {
-    "domain": "https://my.mybricks.world",
-    "email": "1302947749@qq.com",
-    "pxToVw": {},
-    "componentType": "PC",
-    "comAry": [
-        "./src/Button/com.json",
-        "./src/Image/com.json"
-    ],
-    "externals": [
-        {
-          "name": "elementUI",
-          "library": "elementUI",
-          "urls": [
-            "https://unpkg.com/element-ui/lib/theme-chalk/index.css",
-            "https://unpkg.com/element-ui/lib/index.js"
-          ]
-        }
+  "domain": "https://test.mybricks.world",
+  "namespace": "comlib-element",
+  "email": "1302947749@qq.com",
+  "pxToVw": {},
+  "componentType": "PC",
+  "comAry": [
+    "./src/Button/com.json",
+    "./src/Image/com.json"
+  ],
+  "externals": [
+    {
+      "name": "elementUI",
+      "library": "elementUI",
+      "urls": [
+        "https://unpkg.com/element-ui/lib/theme-chalk/index.css",
+        "https://unpkg.com/element-ui/lib/index.js"
       ]
+    }
+  ],
+  "userName": "1302947749@qq.com",
+  "tags": "vue2"
 }
