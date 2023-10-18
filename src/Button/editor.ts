@@ -11,6 +11,10 @@ export default {
         options: {
           options: [
             {
+              label: "默认按钮",
+              value: "default",
+            },
+            {
               label: "主按钮",
               value: "primary",
             },
@@ -34,7 +38,7 @@ export default {
         },
         value: {
           get({ data }) {
-            return data.type;
+            return data.type ?? 'default';
           },
           set({ data }, val) {
             data.type = val;
@@ -52,6 +56,13 @@ export default {
             data.text = val;
           },
         },
+      },
+      {
+        title: '单击',
+        type: '_Event',
+        options: {
+          outputId: 'onClick'
+        }
       },
     ];
   },

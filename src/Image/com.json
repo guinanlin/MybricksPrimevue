@@ -11,7 +11,7 @@
     "inputs": [
       {
         "id": "url",
-        "title": "资源地址",
+        "title": "图片地址",
         "schema": {
           "type": "string"
         }

@@ -1,22 +1,19 @@
 <template>
-    <el-button :type="type" @click="onClick">{{ text }}</el-button>
+  <el-button :type="data.type" @click="onClick">{{ data.text }}</el-button>
 </template>
 
 <script>
 export default {
-    props: ['env', 'data', 'inputs', 'propsStyle', 'outputs'],
-    data() {
-        return {
-            type: this.data.type,
-            text: this.data.text
-        }
+  props: ["env", "data", "inputs", "propsStyle", "outputs"],
+  data() {
+    return {};
+  },
+  methods: {
+    onClick() {
+      this.outputs.onClick();
     },
-    methods: {
-        onClick() {
-            this.outputs.onClick()
-        }
-    }
-}
+  },
+};
 </script>
 
 <style></style>

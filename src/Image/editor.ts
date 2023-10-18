@@ -20,12 +20,36 @@ export default {
       {
         title: "填充方式",
         type: "select",
+        options: {
+          options: [
+            {
+              label: 'fit',
+              value: 'fit'
+            },
+            {
+              label: 'contain',
+              value: 'contain'
+            },
+            {
+              label: 'cover',
+              value: 'cover'
+            },
+            {
+              label: 'none',
+              value: 'none'
+            },
+            {
+              label: 'scale-down',
+              value: 'scale-down'
+            }
+          ]
+        },
         value: {
           get({ data }) {
-            return data.url;
+            return data.fit ?? 'none';
           },
           set({ data }, val) {
-            data.url = val;
+            data.fit = val;
           },
         },
       },
