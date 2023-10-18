@@ -1,6 +1,7 @@
 {
   "name": "comlib-element",
   "version": "1.0.0",
+  "description": "Element-UI组件库",
   "main": "index.js",
   "license": "MIT",
   "dependencies": {

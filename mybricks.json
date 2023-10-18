@@ -2,7 +2,6 @@
   "domain": "https://test.mybricks.world",
   "namespace": "comlib-element",
   "email": "1302947749@qq.com",
-  "pxToVw": {},
   "componentType": "PC",
   "comAry": [
     "./src/Button/com.json",
