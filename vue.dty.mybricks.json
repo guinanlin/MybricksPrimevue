@@ -1,0 +1,13 @@
+{
+  "domain": "https://my.mybricks.world",
+  "namespace": "dty-primevue-comlib-element",
+  "email": "goodhawk@gmail.com",
+  "componentType": "PC",
+  "comAry": [
+    "./src/Button/com.json",
+    "./src/SplitButton/com.json"
+  ],
+  "userName": "goodhawk@gmail.com",
+  "tags": "vue"
+}
+

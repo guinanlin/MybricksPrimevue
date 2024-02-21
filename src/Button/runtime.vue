@@ -1,19 +1,23 @@
 <template>
-  <el-button :type="data.type" @click="onClick">{{ data.text }}</el-button>
+  <div class="card flex justify-content-center">
+    <Button :label="data.text" :severity="data.severity" text raised />
+  </div>
 </template>
 
-<script>
-export default {
-  props: ["env", "data", "inputs", "propsStyle", "outputs"],
-  data() {
-    return {};
-  },
-  methods: {
-    onClick() {
-      this.outputs.onClick();
-    },
-  },
-};
+<script setup>
+import Button from 'primevue/button'; // 导入 PrimeVue 的 Button 组件
+
+// 定义 props
+const props = defineProps({
+  env: String,
+  data: Object,
+  inputs: Array,
+  propsStyle: String,
+  outputs: Array
+});
 </script>
 
-<style></style>
+<style lang="less" scoped>
+@import 'primevue/resources/themes/lara-light-blue/theme.css';
+@import 'primeicons/primeicons.css';
+</style>

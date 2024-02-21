@@ -1,6 +1,6 @@
 {
-  "title": "按钮Button",
-  "namespace": "comlib-primevue.button",
+  "title": "分割Button",
+  "namespace": "comlib-primevue.splitbutton",
   "version": "1.0.0",
   "author": "guinan.lin",
   "author_name": "guinan.lin",

@@ -1,11 +1,11 @@
 {
     "compilerOptions": {
-        "module": "es2015",
+        "module": "esnext",
         "target": "es5",
         "lib": ["dom", "es2016", "dom.iterable", "esnext"],
         "noImplicitAny": false,
         "allowJs": true,
-        "skipLibCheck": true,
+        "skipLibCheck": false,
         "esModuleInterop": true,
         "experimentalDecorators": true,
         "emitDecoratorMetadata": true,
@@ -14,9 +14,9 @@
         "forceConsistentCasingInFileNames": true,
         "moduleResolution": "node",
         "resolveJsonModule": true,
-        "isolatedModules": true,
+        "isolatedModules": false,
         "noEmit": true,
-        "jsx": "react",
+        "jsx": "preserve",
         "baseUrl": "."
     },
     "exclude": ["./node_modules", "./dist", "./.temp", "./.temp-entry-items"]
